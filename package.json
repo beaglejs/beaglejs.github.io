@@ -1,0 +1,36 @@
+{
+  "name": "beaglejs.github.io",
+  "version": "0.0.1",
+  "description": "BeagleJS Website",
+  "main": "./src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "npm run build:css && npm run build:static",
+    "build:css": "sass scss/beaglejs.scss theme/beaglejs/asset/css/beaglejs.css",
+    "build:static": "projectedby static gen --theme=beaglejs --destination=docs",
+    "get:theme": "projectedby static theme",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beaglejs/beaglejs.github.io.git"
+  },
+  "keywords": [
+    "BeagleJS",
+    "Website"
+  ],
+  "author": "novemberizing <novemberizing@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/beaglejs/beaglejs.github.io/issues"
+  },
+  "homepage": "https://github.com/beaglejs/beaglejs.github.io#readme",
+  "dependencies": {
+    "@projectedby/cms": "^0.0.26",
+    "bootstrap": "^5.3.2",
+    "sass": "^1.69.5",
+    "showdown-katex": "^0.8.0"
+  }
+}
