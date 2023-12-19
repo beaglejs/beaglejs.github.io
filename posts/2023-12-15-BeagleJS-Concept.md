@@ -18,10 +18,8 @@ tags: ['BeagleJS', 'Concept']
 
 TODO: 크로미움 구조
 
-
-[크로미움 Graphic & UI Architecture 이해하기
+- [크로미움 Graphic & UI Architecture 이해하기
 Chromium Graphic & UI Architecture](https://dydtjr1128.github.io/chromium/2019/07/02/Chromium-Graphic-and-UI.html)
-
 
 [Design Documents](https://www.chromium.org/developers/design-documents/)
 
